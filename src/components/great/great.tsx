@@ -1,7 +1,11 @@
-export const Great = () => {
+
+type great={
+    name:string;
+}
+export const Great = (props:great) => {
     return (
         <div>
-            Hello
+            {` Hello ${props.name}`}
         </div>
     );
 };
