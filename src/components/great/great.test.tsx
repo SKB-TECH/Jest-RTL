@@ -1,6 +1,5 @@
-  import {render,screen} from "@testing-library/react";
+import {render,screen} from "@testing-library/react";
 import {Great} from "./great";
-
 
 describe("Great",()=>{
     it("hello all",()=>{

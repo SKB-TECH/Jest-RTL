@@ -5,7 +5,7 @@ type great={
 export const Great = (props:great) => {
     return (
         <div>
-            {` Hello ${props.name}`}
+            {` Hello ${props.name && props.name}`}
         </div>
     );
 };

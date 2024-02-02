@@ -7,7 +7,7 @@ import Second from "./components/hello/Hellos";
 function App() {
   return (
     <div className="App">
-     <Great/>
+      <Great name={"benj"}/>
       <Second name={"Benjamin"}/>
     </div>
   );
